@@ -1,0 +1,65 @@
+﻿ .head {
+            background: #364050 url('../Project/css/images/bg1.png');
+            font-family: 'Delicious', 'sans-serif';
+            font-size: 5px;
+            text-align: center;
+            color: #fff;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+            border-radius:5px;
+        }
+    .head h1 {
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    }
+        .h {
+            background: url('../Project/css/images/bg2.png');
+        }
+
+        .result {
+            padding-top: 1em;
+            font-family: 'Delicious', 'sans-serif';
+            font-size: 20px;
+        }
+
+        .style1 {
+            font-size: 20px;
+            width: 191px;
+        }
+
+        .foot {
+            font-family: 'Delicious', 'sans-serif';
+            font-weight: bold;
+            background-color: #353530;
+            margin-left: 15%;
+            margin-right: 15%;
+            color: #e4e4e2;
+            text-align: center;
+        }
+
+        .h6 {
+            display: block;
+            font-size: 0.67em;
+            -webkit-margin-before: 2.33em;
+            -webkit-margin-after: 2.33em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 2%;
+            width: 85%;
+            height: auto;
+            margin: 5% 7.5% 5% 7.5%;
+            background: #FFFFFF;
+            -border-radius: 10px;
+            box-shadow: 10px 10px 5px #BDBDBD;
+            -box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+            -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+            -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+            position: relative;
+        }

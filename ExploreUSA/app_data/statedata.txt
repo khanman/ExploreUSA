@@ -1,0 +1,52 @@
+California-CA-35484453
+Texas-TX-22118509
+New York-NY-19190115
+Florida-FL-17019068
+Illinois-IL-12653544
+Pennsylvania-PA-12365455
+Ohio-OH-11435798
+Michigan-MI-10079985
+Georgia-GA-8684715
+New Jersey-NJ-8638396
+North Carolina-NC-8407248
+Virginia-VA-7386330
+Massachusetts-MA-6433422
+Indiana-IN-6195643
+Washington-WA-6131445
+Tennessee-TN-5841748
+Missouri-MO-5704484
+Arizona-AZ-5580811
+Maryland-MD-5508909
+Wisconsin-WI-5472299
+Minnesota-MN-5059375
+Colorado-CO-4550688
+Alabama-AL-4500752
+Louisiana-LA-4496334
+South Carolina-SC-4147152
+Kentucky-KY-4117827
+Puerto Rico-PR-3878532
+Oregon-OR-3559596
+Oklahoma-OK-3511532
+Connecticut-CT-3483372
+Iowa-IA-2944062
+Mississippi-MS-2881281
+Arkansas-AR-2725714
+Kansas-KS-2723507
+Utah-UT-2351467
+Nevada-NV-2241154
+New Mexico-NM-1874614
+West Virginia-WV-1810354
+Nebraska-NE-1739291
+Idaho-ID-1366332
+Maine-ME-1305728
+New Hampshire-NH-1287687
+Hawaii-HI-1257608
+Rhode Island-RI-1076164
+Montana-MT-917621
+Delaware-DE-817491
+South Dakota-SD-764309
+Alaska-AK-648818
+North Dakota-ND-633837
+Vermont-VT-619107
+Washington DC-DC-563384
+Wyoming-WY-501242

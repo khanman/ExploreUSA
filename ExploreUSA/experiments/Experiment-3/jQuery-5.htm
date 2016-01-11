@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery-Collapse content</title>
+    <script src="../../javascript/jquery-1.9.js"></script>
+    <script src="../../javascript/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="../../css/colormix.css">
+    <script>
+        function hexFromRGB(r, g, b) {
+            var hex = [
+                r.toString(16),
+                g.toString(16),
+                b.toString(16)
+            ];
+            $.each(hex, function (nr, val) {
+                if (val.length === 1) {
+                    hex[nr] = "0" + val;
+                }
+            });
+            return hex.join("").toUpperCase();
+        }
+        function refreshSwatch() {
+            var red = $("#red").slider("value"),
+                green = $("#green").slider("value"),
+                blue = $("#blue").slider("value"),
+                hex = hexFromRGB(red, green, blue);
+            $("#swatch").css("background-color", "#" + hex);
+        }
+        $(function () {
+            $("#red, #green, #blue").slider({
+                orientation: "horizontal",
+                range: "min",
+                max: 255,
+                value: 127,
+                slide: refreshSwatch,
+                change: refreshSwatch
+            });
+            $("#red").slider("value", 255);
+            $("#green").slider("value", 140);
+            $("#blue").slider("value", 60);
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h3 style="font-family:'Comic Sans MS'"><b>Experiment: Color Picker</b></h3>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    jQuery-Color Picker<br>
+                    Combine three sliders to create a simple RGB colorpicker.
+                </p>
+            </div>
+        </div>
+        <p>
+            Simple Color-Picker
+        </p>
+        <div id="red">
+
+        </div>
+        <div id="green">
+
+        </div>
+        <div id="blue">
+
+        </div>
+        <div id="swatch" class="ui-widget-content ui-corner-all">
+
+        </div> 
+        <div class="clearfix"></div>
+        <hr>      
+        <div>
+            <p>
+                <b>View Source:</b>
+                <a href="../../fileview/default.aspx?~/experiments/Experiment-3/jQuery-5.htm" target="_blank">ASPX Source</a>|
+                <a href="../../fileview/default.aspx?~/css/colormix.css" target="_blank">CSS Source</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

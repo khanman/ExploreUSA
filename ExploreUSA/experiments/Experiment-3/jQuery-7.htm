@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <title>jQuery-FancyBox</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script>
+        !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+    </script>
+    <script type="text/javascript" src="../../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="../../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../fancybox/jquery.fancybox-1.34.css" media="screen" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a#example1").fancybox();
+            $("a[rel=example_group]").fancybox({
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'titlePosition': 'over',
+                'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+    <h3 style="font-family:'Comic Sans MS'"><b>Experiment: Fancy Box</b></h3>
+        <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>
+                jQuery-Fancy Box:<br>
+                 Displaying images,html content and multi-media in a "lightbox" that floats overtop of web page on clicking over the image. 
+            </p>
+        </div>
+    </div>
+    <div>
+        <a id="example1" href="../../images/img/1.JPG"><img alt="example1" src="../../images/img/1.JPG"/></a>
+    </div>
+        <hr>
+        <div>
+            <p>
+                <b>View Source: </b>
+                <a href="../../fileview/default.aspx?~/experiments/Experiment-3/jQuery-7.htm" target="_blank">ASPX Source</a>|
+                <a href="../../fileview/default.aspx?~/css/bootstrap.css" target="_blank">CSS Source</a>
+            </p>
+        </div>
+        <div>
+        <p class="posbottom">
+            <b>Reference: </b>
+            <a href="http://fancybox.net/home" target="_blank">Fancy Box</a>
+        </p>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿    #map {
+            height: 150px;
+            width: 100%;
+            border-style: solid;
+            visibility: hidden;
+        }
+        #more_results {
+            visibility: hidden;
+        }
+
+        #attractions {
+            max-width: 400px;
+            margin-left: 50px;
+            font-weight: bold;
+        }
+
+        .details {
+            max-width: 100%;
+            border-style: solid;
+            font-size: large;
+            border-width:2px;
+            border-radius:6px;
+            border-color:#364050;
+           
+        }
+
+        .sub_details {
+            font-style: italic;
+            font-size: medium;
+            
+        }
+
+        #map_button {
+            max-width: 700px;
+            margin-right: 50px;
+            padding-bottom:5px;
+        }
+
+        #picture {
+            border-style: solid;
+            border-color: black;
+           
+        }
+ 

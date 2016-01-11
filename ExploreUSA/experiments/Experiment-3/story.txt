@@ -1,0 +1,7 @@
+jQuery-1.htm	                                                          Experiment 1. jQuery Collapse Content
+jQuery-2.htm                                                              Experiment 2. jQuery Draggable Content 
+jQuery-3.htm                                                              Experiment 3. jQuery Sortable
+jQuery-4.htm                                                              Experiment 4. jQuery Draggable and Sortable
+jQuery-5.htm                                                              Experiment 5. jQuery Color Picker 
+jQuery-6.htm                                                              Experiment 6. jQuery Selectable 
+jQuery-7.htm                                                              Experiment 7. jQuery Image over webpage

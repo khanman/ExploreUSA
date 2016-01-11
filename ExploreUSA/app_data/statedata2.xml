@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUSStateData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <USStateData Name="California">
+    <Abbr>CA</Abbr>
+    <Population>35484453</Population>
+  </USStateData>
+  <USStateData Name="Texas">
+    <Abbr>TX</Abbr>
+    <Population>22118509</Population>
+  </USStateData>
+  <USStateData Name="New York">
+    <Abbr>NY</Abbr>
+    <Population>19190115</Population>
+  </USStateData>
+  <USStateData Name="Florida">
+    <Abbr>FL</Abbr>
+    <Population>17019068</Population>
+  </USStateData>
+  <USStateData Name="Illinois">
+    <Abbr>IL</Abbr>
+    <Population>12653544</Population>
+  </USStateData>
+  <USStateData Name="Pennsylvania">
+    <Abbr>PA</Abbr>
+    <Population>12365455</Population>
+  </USStateData>
+  <USStateData Name="Ohio">
+    <Abbr>OH</Abbr>
+    <Population>11435798</Population>
+  </USStateData>
+  <USStateData Name="Michigan">
+    <Abbr>MI</Abbr>
+    <Population>10079985</Population>
+  </USStateData>
+  <USStateData Name="Georgia">
+    <Abbr>GA</Abbr>
+    <Population>8684715</Population>
+  </USStateData>
+  <USStateData Name="New Jersey">
+    <Abbr>NJ</Abbr>
+    <Population>8638396</Population>
+  </USStateData>
+  <USStateData Name="North Carolina">
+    <Abbr>NC</Abbr>
+    <Population>8407248</Population>
+  </USStateData>
+  <USStateData Name="Virginia">
+    <Abbr>VA</Abbr>
+    <Population>7386330</Population>
+  </USStateData>
+  <USStateData Name="Massachusetts">
+    <Abbr>MA</Abbr>
+    <Population>6433422</Population>
+  </USStateData>
+  <USStateData Name="Indiana">
+    <Abbr>IN</Abbr>
+    <Population>6195643</Population>
+  </USStateData>
+  <USStateData Name="Washington">
+    <Abbr>WA</Abbr>
+    <Population>6131445</Population>
+  </USStateData>
+  <USStateData Name="Tennessee">
+    <Abbr>TN</Abbr>
+    <Population>5841748</Population>
+  </USStateData>
+  <USStateData Name="Missouri">
+    <Abbr>MO</Abbr>
+    <Population>5704484</Population>
+  </USStateData>
+  <USStateData Name="Arizona">
+    <Abbr>AZ</Abbr>
+    <Population>5580811</Population>
+  </USStateData>
+  <USStateData Name="Maryland">
+    <Abbr>MD</Abbr>
+    <Population>5508909</Population>
+  </USStateData>
+  <USStateData Name="Wisconsin">
+    <Abbr>WI</Abbr>
+    <Population>5472299</Population>
+  </USStateData>
+  <USStateData Name="Minnesota">
+    <Abbr>MN</Abbr>
+    <Population>5059375</Population>
+  </USStateData>
+  <USStateData Name="Colorado">
+    <Abbr>CO</Abbr>
+    <Population>4550688</Population>
+  </USStateData>
+  <USStateData Name="Alabama">
+    <Abbr>AL</Abbr>
+    <Population>4500752</Population>
+  </USStateData>
+  <USStateData Name="Louisiana">
+    <Abbr>LA</Abbr>
+    <Population>4496334</Population>
+  </USStateData>
+  <USStateData Name="South Carolina">
+    <Abbr>SC</Abbr>
+    <Population>4147152</Population>
+  </USStateData>
+  <USStateData Name="Kentucky">
+    <Abbr>KY</Abbr>
+    <Population>4117827</Population>
+  </USStateData>
+  <USStateData Name="Puerto Rico">
+    <Abbr>PR</Abbr>
+    <Population>3878532</Population>
+  </USStateData>
+  <USStateData Name="Oregon">
+    <Abbr>OR</Abbr>
+    <Population>3559596</Population>
+  </USStateData>
+  <USStateData Name="Oklahoma">
+    <Abbr>OK</Abbr>
+    <Population>3511532</Population>
+  </USStateData>
+  <USStateData Name="Connecticut">
+    <Abbr>CT</Abbr>
+    <Population>3483372</Population>
+  </USStateData>
+  <USStateData Name="Iowa">
+    <Abbr>IA</Abbr>
+    <Population>2944062</Population>
+  </USStateData>
+  <USStateData Name="Mississippi">
+    <Abbr>MS</Abbr>
+    <Population>2881281</Population>
+  </USStateData>
+  <USStateData Name="Arkansas">
+    <Abbr>AR</Abbr>
+    <Population>2725714</Population>
+  </USStateData>
+  <USStateData Name="Kansas">
+    <Abbr>KS</Abbr>
+    <Population>2723507</Population>
+  </USStateData>
+  <USStateData Name="Utah">
+    <Abbr>UT</Abbr>
+    <Population>2351467</Population>
+  </USStateData>
+  <USStateData Name="Nevada">
+    <Abbr>NV</Abbr>
+    <Population>2241154</Population>
+  </USStateData>
+  <USStateData Name="New Mexico">
+    <Abbr>NM</Abbr>
+    <Population>1874614</Population>
+  </USStateData>
+  <USStateData Name="West Virginia">
+    <Abbr>WV</Abbr>
+    <Population>1810354</Population>
+  </USStateData>
+  <USStateData Name="Nebraska">
+    <Abbr>NE</Abbr>
+    <Population>1739291</Population>
+  </USStateData>
+  <USStateData Name="Idaho">
+    <Abbr>ID</Abbr>
+    <Population>1366332</Population>
+  </USStateData>
+  <USStateData Name="Maine">
+    <Abbr>ME</Abbr>
+    <Population>1305728</Population>
+  </USStateData>
+  <USStateData Name="New Hampshire">
+    <Abbr>NH</Abbr>
+    <Population>1287687</Population>
+  </USStateData>
+  <USStateData Name="Hawaii">
+    <Abbr>HI</Abbr>
+    <Population>1257608</Population>
+  </USStateData>
+  <USStateData Name="Rhode Island">
+    <Abbr>RI</Abbr>
+    <Population>1076164</Population>
+  </USStateData>
+  <USStateData Name="Montana">
+    <Abbr>MT</Abbr>
+    <Population>917621</Population>
+  </USStateData>
+  <USStateData Name="Delaware">
+    <Abbr>DE</Abbr>
+    <Population>817491</Population>
+  </USStateData>
+  <USStateData Name="South Dakota">
+    <Abbr>SD</Abbr>
+    <Population>764309</Population>
+  </USStateData>
+  <USStateData Name="Alaska">
+    <Abbr>AK</Abbr>
+    <Population>648818</Population>
+  </USStateData>
+  <USStateData Name="North Dakota">
+    <Abbr>ND</Abbr>
+    <Population>633837</Population>
+  </USStateData>
+  <USStateData Name="Vermont">
+    <Abbr>VT</Abbr>
+    <Population>619107</Population>
+  </USStateData>
+  <USStateData Name="Washington DC">
+    <Abbr>DC</Abbr>
+    <Population>563384</Population>
+  </USStateData>
+  <USStateData Name="Wyoming">
+    <Abbr>WY</Abbr>
+    <Population>501242</Population>
+  </USStateData>
+</ArrayOfUSStateData>

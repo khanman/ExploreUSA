@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery-Sortable</title>
+    <script src="../../javascript/jquery-1.9.js"></script>
+    <script src="../../javascript/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script>
+        $(function () {
+            $("#accordion")
+                .accordion({
+                    header: "> div > h3"
+                })
+                .sortable({
+                    
+                    axis: "y",
+                    handle: "h3",
+                    stop: function (event, ui) {
+                        ui.item.children("h3").triggerHandler("focusout");
+                        
+                    }
+                });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h3 style="font-family:'Comic Sans MS'"><b>Experiment: Sortable</b></h3>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    jQuery-Sortable:<br>
+                    Drag the header to re-order panels.
+                </p>
+            </div>
+        </div>
+       
+        <div id="accordion">
+            <div class="group">
+                <h3>HTML</h3>
+                <div>
+                    <p>
+                        HTML stands for Hyper Text Markup Language
+                        HTML is a markup language
+                        A markup language is a set of markup tags
+                        The tags describe document content
+                        HTML documents contain HTML tags and plain text
+                        HTML documents are also called web pages
+                    </p>
+                </div>
+            </div>
+            <div class="group">
+                <h3>CSS</h3>
+                <div>
+                    <p>
+                        CSS stands for Cascading Style Sheets
+                        Styles define how to display HTML elements
+                        Styles were added to HTML 4.0 to solve a problem
+                        External Style Sheets can save a lot of work
+                        External Style Sheets are stored in CSS files
+                </div>
+            </div>
+            <div class="group">
+                <h3>jQuery</h3>
+                <div>
+                    <p>jQuery is a JavaScript Library.jQuery greatly simplifies JavaScript programming. </p>
+                </div>
+            </div>
+            <div class="group">
+                <h3>XML</h3>
+                <div>
+                    <p>
+                        XML stands for EXtensible Markup Language
+                        XML is a markup language much like HTML
+                        XML was designed to carry data, not to display data
+                        XML tags are not predefined. You must define your own tags
+                        XML is designed to be self-descriptive
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p>
+                    <b>View Source: </b>
+                    <a href="../../fileview/default.aspx?~/experiments/Experiment-3/jQuery-3.htm" target="_blank">ASPX Source</a>|
+                    <a href="../../fileview/default.aspx?~/css/bootstrap.css" target="_blank">CSS Source</a>
+                </p>
+            </div>
+
+        </div>
+        </div>
+</body>
+</html>
+
+
+

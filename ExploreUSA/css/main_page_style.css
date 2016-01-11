@@ -1,0 +1,235 @@
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: 5px auto;
+    width: 95%;
+}
+
+.bodycontent {
+    width: 1200px;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background: #455868;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 2px solid #283744;
+}
+
+    nav ul {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        height: 40px;
+    }
+
+    nav li {
+        display: block;
+        float: left;
+        background: #455868;
+    }
+
+    nav .dropdown {
+        display: none;
+    }
+
+    nav a {
+        color: #fff;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 40px;
+        text-shadow: 1px 1px 0px #283744;
+    }
+
+    nav li a {
+        border-right: 1px solid #576979;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    nav li:last-child a {
+        border-right: 0;
+    }
+
+    nav a:hover, nav a:active {
+        background-color: #8c99a4;
+    }
+
+    nav a#pull {
+        display: block;
+    }
+
+.profile-pic {
+    width: 300px;
+    height: 240px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+        nav ul {
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+
+        nav li {
+            width: 50%;
+            float: left;
+            position: relative;
+            background: #455868;
+        }
+
+            nav li a {
+                border-bottom: 1px solid #576979;
+                border-right: 1px solid #576979;
+            }
+
+        nav a {
+            text-align: left;
+            width: 100%;
+            text-indent: 25px;
+        }
+
+        nav .dropdown {
+            display: none;
+        }
+}
+
+@media only screen and (max-width : 515px) {
+    nav {
+        width: 100%;
+        border-bottom: 0;
+    }
+
+        nav ul {
+            display: none;
+            height: auto;
+        }
+
+        nav a#pull {
+            display: block;
+            background-color: #283744;
+            width: 100%;
+            position: relative;
+        }
+
+            nav a#pull:after {
+                content: "";
+                background: url('nav-icon.png') no-repeat;
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                position: absolute;
+                right: 15px;
+                top: 10px;
+            }
+
+        nav .dropdown {
+            display: block;
+        }
+}
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+        nav li a {
+            border-bottom: 1px solid #576979;
+        }
+
+    nav .dropdown {
+        display: block;
+    }
+
+    .profile-pic {
+        width: 100%;
+        height: 40%;
+    }
+}
+
+#intro {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    color: #666666;
+    background-color: #F0F0F0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+    #intro a {
+        color: #C80000;
+        background-color: #F0F0F0;
+    }
+
+    #intro .fl_left {
+        display: block;
+        float: left;
+        width: 320px;
+    }
+
+    #intro .fl_right {
+        display: block;
+        float: right;
+        width: 580px;
+    }
+
+        #intro .fl_right h2, #intro .fl_right ul, #intro .fl_right p {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: normal;
+        }
+
+        #intro .fl_right h2 {
+            font-size: 42px;
+            margin: 15px 0;
+        }
+
+        #intro .fl_right p {
+            line-height: 1.6em;
+            font-size: 16px;
+        }
+
+    #intro h1 {
+        font-size: 42px;
+        color: #666666;
+    }
+
+.header {
+    background-color: #353530;
+    text-decoration: underline;
+    color: #e4e4e2;
+    font-size: x-large;
+    text-align: center;
+    height: 35px;
+}

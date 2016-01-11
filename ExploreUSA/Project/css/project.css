@@ -1,0 +1,88 @@
+﻿
+.fileview_pretag {
+    color: #00f;
+    font-weight: bold;
+    font-family: 'Consolas', 'Lucida Console', 'Courier New', 'Andale Mono', monospace;
+}
+
+    .fileview_pretag a {
+        color: #08f;
+        text-decoration: none;
+    }
+
+        .fileview_pretag a:visited {
+            color: #88f;
+        }
+
+        .fileview_pretag a:hover {
+            color: #f00;
+        }
+
+.mapCan {
+    border-style: double;
+    border-width: 2px;
+    width: 50%;
+    height: 300px;
+    margin-left: 0%;
+}
+
+
+ #routes
+        {      
+            margin-left: 100px;
+            margin-right:100px;
+         
+        }
+         .main_route
+        {
+            font-weight:bold;
+            border-width: 1px;
+            border-style:solid;
+            border-color:#364050;
+            border-radius:20px;
+            padding-left: 20px;
+            //color: orangered;
+        }
+        .main_route_heading
+        {
+            font-family:'Comic Sans MS';
+            font-size: large;
+            padding-top:10px;         
+        }
+       
+        .main_route_details
+        {
+          
+            font-size: medium;
+            
+        }
+        .toggle
+        {
+            padding-top:10px;
+            padding-bottom:10px;
+            text-decoration:underline;
+            font-size: medium;   
+        }
+         .sub_routes
+        {
+            display:none;
+            font-size:medium;
+        }
+        .sub_route_kind
+        {
+            font-family:'Comic Sans MS';
+           
+           
+            
+        }
+        .sub_route_detail
+        {
+           
+
+        }
+
+         #description {
+            color: darkblue;
+            font-weight: bold;
+            font-size: 20px;
+        }

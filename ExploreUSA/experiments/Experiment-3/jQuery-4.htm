@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery- Draggable and Sortable</title>
+    <script src="../../javascript/jquery-1.9.js"></script>
+    <script src="../../javascript/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script>
+        $(function () {
+            $("#sortable").sortable({
+                revert: true
+            });
+            $("#draggable").draggable({
+                connectToSortable: "#sortable",
+                helper: "clone",
+                revert: "invalid"
+            });
+            $("ul, li").disableSelection();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h3 style="font-family:'Comic Sans MS'"><b>Experiment: Draggable and Sortable</b></h3>
+       <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    jQuery- Draggable and Sortable:<br>
+                    Drag the bullet points to re-order panels.
+                    Draggables are built to interact seamlessly with sortables 
+                </p>
+            </div>
+        </div>
+        <div>
+        <ul>
+            <li id="draggable">Drag</li>
+        </ul>
+            
+        <ul id="sortable">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>XML</li>
+            <li>PHP</li>
+            <li>jQuery</li>
+        </ul>
+       <hr>
+            <p>
+                <b>View Source: </b>
+                <a href="../../fileview/default.aspx?~/experiments/Experiment-3/jQuery-4.htm" target="_blank">ASPX Source</a>|
+                <a href="../../fileview/default.aspx?~/css/bootstrap.css" target="_blank">CSS Source</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

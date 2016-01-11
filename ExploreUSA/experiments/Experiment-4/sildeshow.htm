@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image Slide Show</title>
+    <script src="../../javascript/jquery-1.9.js"></script>
+    <script src="../../javascript/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script type="text/javascript">
+        var image1 = new Image()
+        image1.src = "../../images/img/1.JPG"
+        var image2 = new Image()
+        image2.src = "../../images/img/2.JPG"
+        var image3 = new Image()
+        image3.src = "../../images/img/3.JPG"
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h3 style="font-family:'Comic Sans MS'"><b>Experiment: Slide Show</b></h3>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    Slide Show<br>
+                    To Demonstrate sliding images using Javascript
+                    This experiment is to demonstrate an image slide show using javascript
+                    Few images are preloaded and i have set a timeout for each image to 2 secs
+                    
+                </p>
+            </div>
+        </div>
+        <img src="Images/italian-food.gif" name="slide">
+
+        <script>
+            //variable increment through the image
+            var step = 1
+            function slideit() {
+                //if browser does not support, exit.
+                if (!document.images)
+                    return
+                //image to display
+                document.images.slide.src = eval("image" + step + ".src")
+                if (step < 3)
+                    step++
+                else
+                    step = 1
+                //timer for 2 seconds
+                setTimeout("slideit()", 2000)
+            }
+            slideit()
+        </script>
+        <div>
+            <p>
+                <b>View Source: </b>
+                <a href="../../fileview/default.aspx?~/experiments/Experiment-4/sildeshow.htm" target="_blank">ASPX Source</a>|
+                <a href="../../fileview/default.aspx?~/css/bootstrap.css" target="_blank">CSS Source</a>
+            </p>
+        </div>
+        <div>
+        <p class="posbottom">
+            <b>Reference: </b>
+            <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+        </p>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUSStateData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <USStateData Name="California" Abbr="CA" Population="35484453" />
+  <USStateData Name="Texas" Abbr="TX" Population="22118509" />
+  <USStateData Name="New York" Abbr="NY" Population="19190115" />
+  <USStateData Name="Florida" Abbr="FL" Population="17019068" />
+  <USStateData Name="Illinois" Abbr="IL" Population="12653544" />
+  <USStateData Name="Pennsylvania" Abbr="PA" Population="12365455" />
+  <USStateData Name="Ohio" Abbr="OH" Population="11435798" />
+  <USStateData Name="Michigan" Abbr="MI" Population="10079985" />
+  <USStateData Name="Georgia" Abbr="GA" Population="8684715" />
+  <USStateData Name="New Jersey" Abbr="NJ" Population="8638396" />
+  <USStateData Name="North Carolina" Abbr="NC" Population="8407248" />
+  <USStateData Name="Virginia" Abbr="VA" Population="7386330" />
+  <USStateData Name="Massachusetts" Abbr="MA" Population="6433422" />
+  <USStateData Name="Indiana" Abbr="IN" Population="6195643" />
+  <USStateData Name="Washington" Abbr="WA" Population="6131445" />
+  <USStateData Name="Tennessee" Abbr="TN" Population="5841748" />
+  <USStateData Name="Missouri" Abbr="MO" Population="5704484" />
+  <USStateData Name="Arizona" Abbr="AZ" Population="5580811" />
+  <USStateData Name="Maryland" Abbr="MD" Population="5508909" />
+  <USStateData Name="Wisconsin" Abbr="WI" Population="5472299" />
+  <USStateData Name="Minnesota" Abbr="MN" Population="5059375" />
+  <USStateData Name="Colorado" Abbr="CO" Population="4550688" />
+  <USStateData Name="Alabama" Abbr="AL" Population="4500752" />
+  <USStateData Name="Louisiana" Abbr="LA" Population="4496334" />
+  <USStateData Name="South Carolina" Abbr="SC" Population="4147152" />
+  <USStateData Name="Kentucky" Abbr="KY" Population="4117827" />
+  <USStateData Name="Puerto Rico" Abbr="PR" Population="3878532" />
+  <USStateData Name="Oregon" Abbr="OR" Population="3559596" />
+  <USStateData Name="Oklahoma" Abbr="OK" Population="3511532" />
+  <USStateData Name="Connecticut" Abbr="CT" Population="3483372" />
+  <USStateData Name="Iowa" Abbr="IA" Population="2944062" />
+  <USStateData Name="Mississippi" Abbr="MS" Population="2881281" />
+  <USStateData Name="Arkansas" Abbr="AR" Population="2725714" />
+  <USStateData Name="Kansas" Abbr="KS" Population="2723507" />
+  <USStateData Name="Utah" Abbr="UT" Population="2351467" />
+  <USStateData Name="Nevada" Abbr="NV" Population="2241154" />
+  <USStateData Name="New Mexico" Abbr="NM" Population="1874614" />
+  <USStateData Name="West Virginia" Abbr="WV" Population="1810354" />
+  <USStateData Name="Nebraska" Abbr="NE" Population="1739291" />
+  <USStateData Name="Idaho" Abbr="ID" Population="1366332" />
+  <USStateData Name="Maine" Abbr="ME" Population="1305728" />
+  <USStateData Name="New Hampshire" Abbr="NH" Population="1287687" />
+  <USStateData Name="Hawaii" Abbr="HI" Population="1257608" />
+  <USStateData Name="Rhode Island" Abbr="RI" Population="1076164" />
+  <USStateData Name="Montana" Abbr="MT" Population="917621" />
+  <USStateData Name="Delaware" Abbr="DE" Population="817491" />
+  <USStateData Name="South Dakota" Abbr="SD" Population="764309" />
+  <USStateData Name="Alaska" Abbr="AK" Population="648818" />
+  <USStateData Name="North Dakota" Abbr="ND" Population="633837" />
+  <USStateData Name="Vermont" Abbr="VT" Population="619107" />
+  <USStateData Name="Washington DC" Abbr="DC" Population="563384" />
+  <USStateData Name="Wyoming" Abbr="WY" Population="501242" />
+</ArrayOfUSStateData>

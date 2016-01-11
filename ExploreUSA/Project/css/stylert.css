@@ -1,0 +1,864 @@
+/******************************************************************************************************************* 
+	  Fonts
+*******************************************************************************************************************/
+
+@font-face {
+	
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	
+    font-family:'quicksandbold';
+    src: url('../fonts/quicksand_bold-webfont.eot');
+    src: url('../fonts/quicksand_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand_bold-webfont.woff') format('woff'),
+         url('../fonts/quicksand_bold-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand_bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	
+    font-family: 'quicksandbold_oblique';
+    src: url('../fonts/quicksand_bold_oblique-webfont.eot');
+    src: url('../fonts/quicksand_bold_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand_bold_oblique-webfont.woff') format('woff'),
+         url('../fonts/quicksand_bold_oblique-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand_bold_oblique-webfont.svg#quicksandbold_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gasregular';
+    src: url('../fonts/gas_____-webfont.eot');
+    src: url('../fonts/gas_____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gas_____-webfont.woff') format('woff'),
+         url('../fonts/gas_____-webfont.ttf') format('truetype'),
+         url('../fonts/gas_____-webfont.svg#gasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************************************************
+*	0.	General								*
+************************************************/
+
+html, body {  }
+
+body {
+	
+	margin:0px;
+	padding:0px;
+	background:#bebebe;
+	color:#000000;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	/*overflow:hidden;*/
+	
+}
+
+*, *::active, *::focus {
+    
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)!important;
+    -webkit-focus-ring-color: rgba(0, 0, 0, 0)!important;
+    outline: none!important;
+	
+	-khtml-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	
+	-ms-touch-action: none;
+	background: none;
+}
+
+a:active{
+
+	background: none;
+
+}
+
+a img {border: none; }
+
+/************************************************
+*	1.	Containers									*
+************************************************/
+
+#container {
+	
+	width:1042px;
+	height:560px;
+	border:1px solid black;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	overflow:hidden;
+	
+	background:url('../img/site_bg.jpg');
+	
+}
+
+#mapMasker {
+	
+	width:1042px;
+	height:560px;
+	
+	display:block;	
+	overflow:hidden;
+	
+	position:absolute;
+	border:0px solid red;
+	
+}
+
+#mapContainer {
+	
+	width:10px;
+	height:10px;
+	
+	border:0px solid red;
+	opacity:1;
+	
+	position:absolute;
+	
+	/*overflow:hidden;*/
+	
+}
+
+#mapContainer img {
+	position:absolute;	
+}
+
+#mapHits {
+	
+	width:1042px;
+	height:560px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	display:block;
+	border:0px solid yellow;
+	position:absolute;
+	
+}
+
+.stateHolder {
+	
+	width:0px;
+	height:0px;
+	
+	background:none;
+	
+	border:1px solid transparent;
+	position:absolute;
+	
+}
+
+.stateHolder img {
+	
+	position:absolute;
+	
+}
+
+#mapHeaderMask {
+	
+	width:1042px;
+	height:40px;
+	
+	position:absolute;
+	overflow:hidden;
+
+	border:0px solid red;
+	
+}
+
+#mapHeader {
+	
+	width:1042px;
+	height:30px;
+	
+	background:#333333;
+	
+	-webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .5);
+
+	        box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .5);
+	
+}
+
+#mapFooter {
+	
+	width:1042px;
+	height:52px;
+	
+	position:absolute;
+	top:552px;
+	
+	
+	background:#333333;
+	
+}
+
+#mapFooterBar {
+	
+	width:1026px;
+	height:44px;
+	
+	background:#fff;
+	margin-top:6px;
+	
+	color:#343434;
+	font-size:26px;
+	line-height:44px;
+	font-family:'quicksandbold';
+	
+	padding-left:16px;
+	
+}
+
+#mapFooterLogos {
+	
+	width:425px;
+	height:44px;
+	
+	float:right;
+	
+}
+
+#mapFooterLogos img {
+	
+	float:left;
+	display:block;
+	
+}
+
+#header_mute {
+	
+	position:absolute;
+	top:0px;
+	right:18px;
+	
+	width:40px;
+	height:40px;
+
+	cursor:pointer;
+	
+}
+
+#header_mute img {
+	
+	position:absolute;
+	
+}
+
+/************************************************
+*	0. Map Loader									*
+************************************************/
+
+#mapLoader {
+	
+	width:1042px;
+	height:560px;
+	
+	position:absolute;
+		
+	background:url('../img/site_bg.jpg');
+	
+}
+
+#mapLoaderWin {
+	
+	width:200px;
+	height:80px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:220px;
+	
+	background:#fff;
+	border:1px solid black;
+	
+	-webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .5);
+	        box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .5);
+	
+}
+
+#mapLoaderWin h1 {
+	
+	color:#555;
+	font-size:16px;
+	font-family:'quicksandbold';
+	text-align:center;
+	font-weight:normal;
+	
+	margin-top:20px;
+	
+}
+
+#mapLoaderBarBg {
+	
+	width:160px;
+	height:6px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	
+	background:#555;
+	
+}
+
+#mapLoaderBar {
+	
+	width:160px;
+	height:6px;
+		
+	background:#ff0000;
+	
+}
+
+/************************************************
+*	1. Map Subnav									*
+************************************************/
+
+#mapSubnav {
+	
+	width:1042px;
+	height:560px;
+	
+	position:absolute;
+	overflow:hidden;
+	
+	border:0px solid yellow;
+	
+}
+
+#mapLines {
+	
+	width:93px;
+	height:233px;
+	
+	position:absolute;
+	border:0px solid yellow;
+	
+	top:-7px;
+	left:-80px;
+	
+	background:none;
+	
+}
+
+#mapLines img {
+	
+	position:absolute;
+	
+}
+
+#mapMenu {
+	
+	width:155px;
+	height:300px;
+	
+	position:absolute;
+	border:0px solid yellow;
+	
+	top:134px;
+	left:876px;
+	
+}
+
+.mapMenuItem {
+	
+	width:155px;
+	height:23px;
+	
+	float:left;
+	border:0px solid red;
+	
+	margin-bottom:4px;
+	
+}
+
+.mapMenuItem img {
+
+	position:absolute;	
+}
+
+.mapMenuItemTitle {
+	
+	width:155px;
+	height:23px;
+	
+	color:#fff;
+	font-size:17px;
+	line-height:23px;
+	font-family:'quicksandbold';
+	text-align:center;
+	
+	position:absolute;	
+	
+}
+
+/************************************************
+*	2. Details									*
+************************************************/
+
+#mapDetails {
+	
+	width:1042px;
+	height:560px;
+	
+	position:absolute;
+	
+	background:none;
+	opacity:1;
+	
+	display:none;
+	
+}
+
+#detailsName {
+	
+	width:247px;
+	height:50px;
+	background:url('../img/details/bg_name.png');
+	
+	top:8px;
+	left:8px;
+	
+	color:#fff;
+	font-size:26px;
+	line-height:36px;
+	font-family:'quicksandbold';
+	text-align:center;
+	
+	position:absolute;
+	
+}
+
+#detailsZoomOut {
+	
+	width:73px;
+	height:73px;
+	background:url('../img/details/zoom_out.png');
+			
+	top:40px;
+	right:32px;
+			
+	position:absolute;
+	display:none;
+	
+	cursor:pointer;
+	
+}
+
+#detailsVideoWin {
+	
+	width:416px;
+	height:360px;
+	
+	background:#fff;
+	border:1px solid gray;
+	
+	position:absolute;
+	top:100px;
+	right:110px;
+	display:none;
+	
+}
+
+#detailsVideoHolder {
+	
+	width:386px;
+	height:210px;
+	
+	background:#000;
+	border:1px black gray;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:12px;
+	
+}
+
+#detailsVideoInfo {
+	
+	width:386px;
+	height:120px;
+	
+	border:0px solid red;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:8px;
+	
+}
+
+#detailsVideoInfo h2 {
+		
+	color:#474747;
+	font-size:12px;
+	line-height:16px;
+	font-weight:bold;
+	font-family:Arial;
+	
+	display:inline;
+	
+}
+
+#detailsVideoInfo h3 {
+		
+	color:#474747;
+	font-size:12px;
+	line-height:16px;
+	font-weight:normal;
+	font-family:Arial;
+	
+	display:inline;
+	
+}
+
+#detailsVideoInfo a {
+		
+	color:#318a9e;
+	font-size:12px;
+	line-height:16px;
+	font-weight:normal;
+	font-family:Arial;
+	font-weight:bold;
+	
+	display:inline;
+	text-decoration:underline;
+	
+}
+
+#detailsVideoInfo a:hover {
+		
+	color:#ec423c;
+	text-decoration:underline;
+	
+}
+
+
+/************************************************
+*	3. Teams								*
+************************************************/
+
+#teamsHolder {
+	
+	width:500px;
+	height:450px;
+	
+	position:absolute;
+	border:0px solid red;
+	
+	top:54px;
+	left:80px;
+	
+}
+
+.teamLogo {
+	
+	width:120px;
+	height:100px;
+	
+	position:absolute;
+	
+	margin-bottom:14px;
+	margin-right:14px;
+	
+	border:0px solid yellow;
+}
+
+.teamLogoImage {
+	
+	width:100px;
+	height:100px;
+	
+	position:absolute;
+	margin-left:20px;
+	
+	color:#000;
+	font-size:10px;
+	line-height:10px;
+	font-family:'quicksandbold';
+	text-align:center;
+	
+	background:none;
+	
+	cursor:pointer;
+	
+}
+
+.teamLogoButton {
+	
+	width:42px;
+	height:42px;
+	
+	position:absolute;
+	margin-top:58px;
+	
+	background:url('../img/details/info.png');
+	cursor:pointer;
+	
+}
+
+.teamLogoButton img {
+	
+	position:absolute;
+}
+
+.teamLogoClose {
+	
+	width:42px;
+	height:42px;
+	
+	position:absolute;
+	
+	background:url('../img/details/close.png');
+	cursor:pointer;
+	
+}
+
+.teamInfoWin {
+	
+	width:294px;
+	height:390px;
+	
+	border:2px solid #ec423c;
+	
+	position:absolute;
+	left:-280px;
+	top:40px;
+	
+	-webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .5);
+	        box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .5);
+	
+	overflow:hidden;
+	
+}
+
+.teamInfoBg {
+	
+	width:294px;
+	height:390px;
+	
+	background:#fff;
+	opacity:.9;
+	
+	position:absolute;
+	
+}
+
+.teamInfoData {
+	
+	width:270px;
+	height:390px;
+	
+	position:absolute;
+	left:12px;
+}
+
+.teamInfoData h1 {
+	
+	margin-top:10px;
+	margin-bottom:10px;
+	
+	color:#474747;
+	font-size:18px;
+	line-height:20px;
+	font-weight:normal;
+	font-family:'quicksandbold';
+	text-align:center;
+	
+}
+
+.teamInfoData img {
+	
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+	width:270px;
+	height:134px;
+	
+	background:#999;
+	
+}
+
+.teamInfoData h2 {
+	
+	margin-top:4px;
+	margin-bottom:12px;
+	
+	color:#000;
+	font-size:10px;
+	line-height:10px;
+	font-weight:normal;
+	font-family:Arial;
+	text-align:right;
+	
+}
+
+.teamDetails {
+	
+	width:271px;
+	border:0px solid red;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	
+	-moz-column-gap:20px; /* Firefox */
+	-webkit-column-gap:20px; /* Safari and Chrome */
+	column-gap:20px;
+	
+	color:#000;
+	font-size:11px;
+	line-height:12px;
+	font-weight:normal;
+	font-family:Arial;
+
+}
+
+.teamDetail {
+	
+	width:115px;
+
+	color:#000;
+	font-size:11px;
+	line-height:12px;
+	font-weight:normal;
+	font-family:Arial;
+	
+	-webkit-column-break-inside: avoid;
+	display: inline-block;
+
+}
+
+.teamDetail h1 {
+	
+	color:#000;
+	font-size:11px;
+	line-height:12px;
+	font-weight:bold;
+	font-family:Arial;
+	display:inline;
+	
+	margin:0px;
+	padding:0px;
+	
+}
+
+.teamDetail p {
+	
+	margin:0px;
+	margin:0px;
+	padding:0px;
+	display:block;
+	
+}
+
+.teamBreak {
+	
+	width:271px;
+	height:1px;
+	background:#000;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top:8px;
+	margin-bottom:8px;
+	
+}
+
+.teamContent {
+	
+	width:271px;
+	border:0px solid red;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	color:#000;
+	font-size:11px;
+	line-height:14px;
+	font-weight:normal;
+	font-family:Arial;
+	
+}
+
+/************************************************
+*	4. Instructions								*
+************************************************/
+
+#mapInstructions {
+	
+	width:170px;
+	height:106px;
+	
+	position:absolute;
+	border:2px solid gray;
+	background:#fff;
+
+	top:385px;
+	left:12px;
+	
+}
+
+#mapInstructions p {
+	
+	margin-top:12px;
+	margin-bottom:5px;
+	color:#666;
+	font-size:16px;
+	line-height:19px;
+	font-family:'quicksandbold';
+	text-align:center;
+	
+}
+
+#mapInstCount {
+	
+	width:155px;
+	height:30px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	border-top:2px solid gray;
+	margin-top:2px;
+	
+	color:#ed423c;
+	font-size:14px;
+	line-height:26px;
+	font-family:'quicksandbold';
+	text-align:center;
+	
+}
+
+
+
+
+
+
+

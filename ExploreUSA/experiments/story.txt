@@ -1,0 +1,21 @@
+﻿../story/whatisnext.htm?../experiments/story.txt                                   What is Next?
+../story/whatisnext.htm?../experiments/Experiment-1/story.txt	                   Experiment 1: HTML/CSS/Responsive Design
+../story/whatisnext.htm?../experiments/Experiment-2/story.txt			           Experiment 2: BootStrap 
+../story/whatisnext.htm?../experiments/Experiment-3/story.txt                      Experiment 3: JQuery
+../story/whatisnext.htm?../experiments/Experiment-4/story.txt                      Experiment 4: Slide Show 
+../story/whatisnext.htm?../experiments/Experiment-5/story.txt                      Experiment 5: Google Maps 
+../story/whatisnext.htm?../experiments/Experiment-6/story.txt                      Experiment 6: Ajax/Auto-complete 
+../story/whatisnext.htm?../experiments/Experiment-7/story.txt                      Experiment 7: Web Services/File Upload 
+../story/whatisnext.htm?../experiments/Experiment-8/story.txt                      Experiment 8: Page Loading/Rss Feed 
+../story/whatisnext.htm?../experiments/Experiment-9/story.txt                      Experiment 9: Weather Report Api 
+../story/whatisnext.htm?../experiments/Experiment-10/story.txt                     Experiment 10: Custom scroll
+../story/whatisnext.htm?../experiments/Experiment-11/story.txt                     Experiment 11: Data Retrival 
+../story/whatisnext.htm?../experiments/Experiment-12/story.txt                     Experiment 12: Data View 
+../story/whatisnext.htm?../experiments/Experiment-13/story.txt                     Experiment 13: USToday.com API 
+../story/whatisnext.htm?../experiments/Experiment-14/story.txt                     Experiment 14: Restuarants-Yelp API
+../story/whatisnext.htm?../experiments/Experiment-15/story.txt                     Experiment 15: Image/Webservices 
+
+
+
+
+
